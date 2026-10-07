@@ -35,20 +35,7 @@ Depois execute:
 
 O banco será criado com o nome `estoque_db`.
 
-## 3. Configuração da API
-
-Copie `.env.example` para `.env` e ajuste:
-
-```env
-PORT=3000
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=root
-DB_NAME=estoque_db
-```
-
-## 4. Instalação
+## 3. Instalação
 
 ```bash
 npm install
@@ -63,7 +50,7 @@ Health check:
 
 `GET /api/health`
 
-## 5. Rotas principais
+## 4. Rotas principais
 
 ### Categorias
 
